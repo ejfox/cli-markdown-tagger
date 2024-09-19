@@ -1,9 +1,9 @@
 {
   "name": "cli-markdown-tagger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add tags to markdown frontmatter with an LLM",
   "main": "index.js",
-   "bin": {
+  "bin": {
     "cli-markdown-tagger": "./index.js"
   },
   "scripts": {
