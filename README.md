@@ -17,6 +17,49 @@ This CLI tool automatically updates tags in the frontmatter of markdown files us
 
 - Node.js (v12 or higher recommended)
 - npm (comes with Node.js)
+- OpenRouter API key
+
+## API Key Setup
+
+To use this tool, you need an API key from OpenRouter. Follow these steps to obtain and set up your API key:
+
+1. Go to [https://openrouter.ai/settings/keys](https://openrouter.ai/settings/keys)
+2. If you don't have an account, create one and log in
+3. Generate a new API key
+
+Once you have your API key, you need to set it as an environment variable. Here's how to do it on macOS/Linux:
+
+1. Open your `.zshrc` file in your preferred text editor. We recommend using nvim or VSCode:
+   ```
+   nvim ~/.zshrc
+   ```
+   or
+   ```
+   code ~/.zshrc
+   ```
+
+2. Add the following lines at the end of the file:
+   ```zsh
+   export OPENROUTER_API_KEY="your_api_key_here"
+   export OPENROUTER_BASE_URL="https://openrouter.ai/api/v1"
+   ```
+   Replace "your_api_key_here" with your actual API key.
+
+3. Save the file and exit the editor.
+
+4. Apply the changes by running:
+   ```
+   source ~/.zshrc
+   ```
+
+5. Verify that the variables are set correctly:
+   ```
+   echo $OPENROUTER_API_KEY
+   echo $OPENROUTER_BASE_URL
+   ```
+   These commands should print your API key and the base URL respectively.
+
+After setting up your API key, restart your terminal for the changes to take full effect. If you're using the tool in an already open terminal, remember to run `source ~/.zshrc` or start a new terminal session.
 
 ## Installation
 
