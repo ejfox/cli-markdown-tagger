@@ -1,0 +1,11 @@
+{
+  "name": "cli-markdown-tagger",
+  "version": "0.0.1",
+  "description": "Add tags to markdown frontmatter with an LLM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EJ Fox <ejfox@ejfox.com>",
+  "license": "ISC"
+}
