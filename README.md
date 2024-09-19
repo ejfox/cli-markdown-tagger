@@ -2,6 +2,9 @@
 
 This CLI tool automatically updates tags in the frontmatter of markdown files using AI-powered suggestions. It fetches a list of allowed tags from a specified URL and uses the OpenRouter API to suggest relevant tags based on the content of the markdown file.
 
+<img width="842" alt="Screenshot 2024-09-19 at 5 17 38 PM" src="https://github.com/user-attachments/assets/e9651286-e7bd-4edc-9245-900bb176283d">
+
+
 ## Features
 
 - Fetches allowed tags from a specified URL
