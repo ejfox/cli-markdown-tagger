@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Add tags to markdown frontmatter with an LLM",
   "main": "index.js",
+   "bin": {
+    "cli-markdown-tagger": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
